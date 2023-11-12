@@ -1,0 +1,12 @@
+bs4
+numpy
+pandas
+pyarrow
+requests
+lxml
+PyPDF2
+streamlit
+streamlit_echarts
+
+
+

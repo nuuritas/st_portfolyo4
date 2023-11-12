@@ -1,0 +1,10 @@
+import subprocess
+print("START: foreks_fetch.py")
+subprocess.run(["python", "python/foreks_fetch.py"])
+print("DONE: foreks_fetch.py \n")
+print("START: midas_raw_create.py")
+subprocess.run(["python", "python/midas_raw_create.py"])
+print("DONE: midas_raw_create.py \n")
+print("START: midas_create_summary.py")
+subprocess.run(["python", "python/midas_create_summary.py"])
+print("DONE: midas_create_summary.py")
